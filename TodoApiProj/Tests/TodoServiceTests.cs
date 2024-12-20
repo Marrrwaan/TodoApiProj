@@ -72,7 +72,7 @@ public class TodoServiceTests
         var todo = await service.CreateAsync(new TodoItem { Title = "Todo to Complete" });
 
         var updatedTodo = await service.MarkCompleteAsync(todo.Id);
-        
+
         Assert.NotNull(updatedTodo);
         Assert.True(updatedTodo.IsCompleted);
     }

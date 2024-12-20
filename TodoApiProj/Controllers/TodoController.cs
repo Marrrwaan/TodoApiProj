@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TodoApi.Application.DTOs;
 using TodoApi.Application.Interfaces;
 using TodoApi.Domain.Entities;
 
@@ -16,10 +17,16 @@ public class TodoController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> Create([FromBody] TodoItem todo)
+    public async Task<IActionResult> Create([FromBody] TodoCreateDto dto)
     {
-        if (string.IsNullOrWhiteSpace(todo.Title))
+        if (string.IsNullOrWhiteSpace(dto.Title))
             return BadRequest("Title is required.");
+
+        var todo = new TodoItem
+        {
+            Title = dto.Title,
+            Description = dto.Description,
+        };
 
         var createdTodo = await _todoService.CreateAsync(todo);
         return CreatedAtAction(nameof(GetAll), new { id = createdTodo.Id }, createdTodo);
