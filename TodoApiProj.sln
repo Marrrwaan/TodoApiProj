@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi.Application", "Todo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{88F6E96B-A75B-4CF7-BF75-49CC504A3739}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApiProj.Tests", "TodoApiProj.Tests\TodoApiProj.Tests.csproj", "{911C5F44-C581-4829-B3A8-2368F19FB524}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{88F6E96B-A75B-4CF7-BF75-49CC504A3739}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88F6E96B-A75B-4CF7-BF75-49CC504A3739}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88F6E96B-A75B-4CF7-BF75-49CC504A3739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{911C5F44-C581-4829-B3A8-2368F19FB524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911C5F44-C581-4829-B3A8-2368F19FB524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911C5F44-C581-4829-B3A8-2368F19FB524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911C5F44-C581-4829-B3A8-2368F19FB524}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
