@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApiProj", "TodoApiProj\TodoApiProj.csproj", "{2D388E5B-154D-46B4-95D6-B2A0AB4E1A60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApiProj", "TodoApiProj\TodoApiProj.csproj", "{2D388E5B-154D-46B4-95D6-B2A0AB4E1A60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi.Domain", "TodoApi.Domain\TodoApi.Domain.csproj", "{C444296D-408B-45D5-B2E5-31244EEA7A50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApi.Domain", "TodoApi.Domain\TodoApi.Domain.csproj", "{C444296D-408B-45D5-B2E5-31244EEA7A50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi.Application", "TodoApi.Application\TodoApi.Application.csproj", "{FD7D498B-9813-41A0-B8DE-6AE168A233AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApi.Application", "TodoApi.Application\TodoApi.Application.csproj", "{FD7D498B-9813-41A0-B8DE-6AE168A233AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{88F6E96B-A75B-4CF7-BF75-49CC504A3739}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi.Infrastructure", "Infrastructure\TodoApi.Infrastructure.csproj", "{88F6E96B-A75B-4CF7-BF75-49CC504A3739}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApiProj.Tests", "TodoApiProj.Tests\TodoApiProj.Tests.csproj", "{911C5F44-C581-4829-B3A8-2368F19FB524}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApiProj.Tests", "TodoApiProj.Tests\TodoApiProj.Tests.csproj", "{911C5F44-C581-4829-B3A8-2368F19FB524}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
